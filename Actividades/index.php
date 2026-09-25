@@ -15,7 +15,7 @@
         <p>Mi primera encuesta</p>
         <hr>
 
-        <form>
+        <form action="resultados.php" method="POST">
             <label>Nombre</label>
             <input type="text" name="nombre">
             <br><br>
@@ -32,9 +32,7 @@
             <input type="text" name="pasatiempo">
             <br><br>
 
-            <a href="resultados.html">
-                <button type="button">Ingresar datos</button>
-            </a>
+            <button type="submit">Ingresar datos</button>
         </form>
     </div>
 </body>
